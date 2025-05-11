@@ -4,9 +4,9 @@
 
 交流群：913942436
 
-相关数据路径：C:\Users\*****\AppData\Roaming\miniworddata***\data\ss\TriggerScript.log
+相关数据路径：C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.log
 
-在开发者模式，打开存档调试功能，使用脚本的print，即可将print的内容输出到此路径中。这是核心机制，其实只要知道这一步，后面怎么折腾，就不需要我来说了，大家都会。
+在开发者模式，打开调试功能，使用脚本的print，即可将print的内容输出到此路径中。这是核心机制，其实只要知道这一步，后面怎么折腾，就不需要我来说了，大家都会。
 
 a.lua：主程序，在此程序的asd中填写此存档的地形文件列表（r文件），并在触发器中挂载上一个计时器，即可开始数据导出。
 
@@ -38,9 +38,9 @@ a.py：辅助的数据处理脚本，可有可无。
 
 我还不大相信，这玩意，有可能么？
 
-编了个脚本，while (ture)do print("nimazhala")
+整了两行脚本，while (ture)do print("nimazhala")
 
-顺着Procmon，真就找着了。C:\Users\*****\AppData\Roaming\miniworddata***\data\ss\TriggerScript.log
+顺着Procmon，真就找着了。C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.log
 
 行吧，狗洞豪华版！能用！
 
