@@ -50,7 +50,10 @@ C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.l
 
 整了两行脚本，while (ture)do print("nimazhala")
 
-顺着Procmon，真就找着了。C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.log
+顺着Procmon，真就找着了。
+```
+C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.log
+```
 
 行吧，狗洞豪华版！能用！
 
@@ -61,6 +64,8 @@ C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.l
 感谢gpt！阿门！
 
 再打一次广告，交流群：1053150006
+
+## 结语
 
 我其实对迷你-mc的存档转换挺感兴趣，但是电子阳痿了，已经没什么兴趣继续推进了。相信后人的智慧。
 
