@@ -42,12 +42,20 @@ C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.l
 
 
 不是特别熟悉git怎么用，感谢
+
 https://github.com/xiaoniao427
+
 对readme.md的修订，感谢
+
 https://github.com/World-sudo
+
 对mc.py中的anvil库相关逻辑的细节修改，以及这里有一个：
+
 https://github.com/FeiCat-Henry/Mini2Mc-Legend
+
 这个项目中的相关转换逻辑更完善一些，所支持的方块类型更多。
+
+
 
 ---
 
