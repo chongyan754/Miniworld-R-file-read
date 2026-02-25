@@ -1,10 +1,14 @@
 import random
-import anvil
+
 from random import choice
 import os
 import re
 
-
+try:
+    import anvil
+except ImportError:
+    os.system("pip install anvil-parser")
+    import anvil
 kuai=0
 def chus():
     global block_id_map
