@@ -1,8 +1,15 @@
 import random
-import anvil
+#import anvil
 from random import choice
 import os
 import re
+
+try:
+    import anvil
+except ImportError:
+    os.system("pip install anvil-parser")
+    import anvil
+#此处更新来自于@https://github.com/World-sudo的贡献
 
 
 kuai=0
@@ -63,7 +70,7 @@ def convert_block_id(custom_id):
 
 
 dai=os.listdir()
-dai=["x14z13.r"]
+#dai=["x14z13.r"]
 def chuasd():
     global yan_se
     global schu
@@ -148,7 +155,7 @@ def zhu_hs():
                 sgu_f=0
 
             if sgu_f==1:
-                if asd[bina_l][0]!="奉":
+                if asd[bina_l][0]!="实":
                     y=y+1
                     dfg=decompress_string(asd[bina_l])
                     rty=0
@@ -168,7 +175,7 @@ def zhu_hs():
                         x=0
                         z=0
 
-            if asd[bina_l][0]=="奉":
+            if asd[bina_l][0]=="实":
                 schu.write(asd[bina_l])
                 sgu_f=1
                 qi_x=extract_numbers(asd[bina_l])[0]
