@@ -34,7 +34,9 @@ C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.l
 
 有一个anvil库依赖，安装命令是pip install anvil-parser
 
-镜像问题在https://github.com/FeiCat-Henry/Mini2Mc-Legend项目中得到了一定的解决。
+镜像问题在https://github.com/FeiCat-Henry/Mini2Mc-Legend
+
+这个项目中得到了解决。
 
 
 
