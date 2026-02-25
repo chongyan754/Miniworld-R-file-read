@@ -30,9 +30,24 @@ C:\Users\用户名\AppData\Roaming\miniworddata版本号\data\ss\TriggerScript.l
 
 直接将当前路径下所有的明文.r文件转换至.mca
 
+当前版本中存在一个镜像问题，虽然所有方块的坐标都完全无误，但由于mc/mini的玩家视角逻辑似乎不同，看上去就是镜像过的。
+
+有一个anvil库依赖，安装命令是pip install anvil-parser
+
+镜像问题在https://github.com/FeiCat-Henry/Mini2Mc-Legend项目中得到了一定的解决。
+
 
 
 好了，你已经学会这些了，可以开始导出你的世界了。
+
+
+不是特别熟悉git怎么用，感谢
+https://github.com/xiaoniao427
+对readme.md的修订，感谢
+https://github.com/World-sudo
+对mc.py中的anvil库相关逻辑的细节修改，以及这里有一个：
+https://github.com/FeiCat-Henry/Mini2Mc-Legend
+这个项目中的相关转换逻辑更完善一些，所支持的方块类型更多。
 
 ---
 
