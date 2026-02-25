@@ -50,7 +50,7 @@ function printChunkBlockIDs(chunkX, chunkZ)
     end
 
     print("实"..baseX.."/"..baseZ)
-    for y = 0, 150 do
+    for y = 0, 255 do
         local ids = {}
 
         for dx = 0, 15 do
@@ -111,4 +111,8 @@ end
 -- 运行主逻辑
 ScriptSupportEvent:registerEvent([=[minitimer.change]=],uio)
 
---printChunkBlockIDs(-5,5)
+--此处需要在触发器中挂载一个计时器方可正常运行，但效果等同于直接while循环uio()
+while (true) do
+    uio()
+end
+--这么写就是导出崩溃的更快一点，崩溃前导出的数据更少一点。但是简单用这个也没毛病。
